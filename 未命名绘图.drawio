@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T12:22:44.667Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="2qZ9WUWYYKkGoLmrkK7E" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T12:26:34.159Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="d5qAI6nzLNsfMtYYB4jJ" version="20.5.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1298" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -141,12 +141,17 @@
             <mxPoint x="-8" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nw0n-4VwtvRONGjzh-Dm-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;shape=flexArrow;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Nw0n-4VwtvRONGjzh-Dm-50" target="Nw0n-4VwtvRONGjzh-Dm-60">
+        <mxCell id="Nw0n-4VwtvRONGjzh-Dm-49" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;startArrow=classic;startFill=1;endArrow=none;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Nw0n-4VwtvRONGjzh-Dm-50" target="Nw0n-4VwtvRONGjzh-Dm-60">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="460" y="943" />
             </Array>
             <mxPoint x="270" y="943" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nw0n-4VwtvRONGjzh-Dm-88" value="监听" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nw0n-4VwtvRONGjzh-Dm-49">
+          <mxGeometry x="-0.7004" y="4" relative="1" as="geometry">
+            <mxPoint x="7" y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Nw0n-4VwtvRONGjzh-Dm-50" value="rocketmq" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -192,8 +197,8 @@
             <mxPoint x="163.68499999999995" y="1182" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nw0n-4VwtvRONGjzh-Dm-60" value="consumer" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="74" y="920" width="179.37" height="90" as="geometry" />
+        <mxCell id="Nw0n-4VwtvRONGjzh-Dm-60" value="consumer" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="102" y="920" width="123.37" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Nw0n-4VwtvRONGjzh-Dm-61" value="&lt;font color=&quot;#660000&quot;&gt;userId&lt;br&gt;activeId&lt;br&gt;本次提现金额 100&lt;br&gt;提现总额 200&amp;nbsp;&lt;/font&gt;&lt;br&gt;提现状态&lt;br&gt;幂等id(前四个字段)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="549" y="860" width="110" height="100" as="geometry" />
@@ -257,6 +262,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Nw0n-4VwtvRONGjzh-Dm-89" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;cacheSetter &lt;br&gt;无缓存则去db加载&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nw0n-4VwtvRONGjzh-Dm-73">
+          <mxGeometry x="-0.3463" y="5" relative="1" as="geometry">
+            <mxPoint x="50" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Nw0n-4VwtvRONGjzh-Dm-74" value="组装数据:&lt;br&gt;1.钱包总额/余额&lt;br&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;2.提现记录&lt;/span&gt;&lt;/div&gt;" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="471" y="162" width="100" height="110" as="geometry" />
         </mxCell>
@@ -265,9 +275,6 @@
         </mxCell>
         <mxCell id="Nw0n-4VwtvRONGjzh-Dm-76" value="&amp;nbsp;激励中台&lt;br&gt;发奖中心" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="319" y="1060" width="160" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="Nw0n-4VwtvRONGjzh-Dm-77" value="cacheSetter 无缓存则去db加载" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="534" y="302" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nw0n-4VwtvRONGjzh-Dm-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Nw0n-4VwtvRONGjzh-Dm-81" target="Nw0n-4VwtvRONGjzh-Dm-56">
           <mxGeometry relative="1" as="geometry">
