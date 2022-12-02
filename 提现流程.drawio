@@ -1,46 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T11:57:43.539Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="IX1z7t_Suz21iMXubjWN" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-02T02:27:30.795Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="v-HZoFfSQ6VQUS9kt-YW" version="20.6.0" type="github">
   <diagram id="qMxg_St1tfOSJ8N5vThi" name="第 1 页">
-    <mxGraphModel dx="1122" dy="841" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1852" dy="1161" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="ghXFJdvIY7EUAfjLCuwm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="ghXFJdvIY7EUAfjLCuwm-15" target="ghXFJdvIY7EUAfjLCuwm-21">
+        <mxCell id="ghXFJdvIY7EUAfjLCuwm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="ghXFJdvIY7EUAfjLCuwm-15" target="ghXFJdvIY7EUAfjLCuwm-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="590" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ghXFJdvIY7EUAfjLCuwm-15" value="幂等提现" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;dashed=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="ghXFJdvIY7EUAfjLCuwm-15" value="幂等提现" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;dashed=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="340" y="160" width="170" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="ghXFJdvIY7EUAfjLCuwm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ghXFJdvIY7EUAfjLCuwm-1" target="ghXFJdvIY7EUAfjLCuwm-18">
+        <mxCell id="ghXFJdvIY7EUAfjLCuwm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ghXFJdvIY7EUAfjLCuwm-1" target="ghXFJdvIY7EUAfjLCuwm-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="190" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ghXFJdvIY7EUAfjLCuwm-1" value="发起提现请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ghXFJdvIY7EUAfjLCuwm-1" value="发起提现请求" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="220" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ghXFJdvIY7EUAfjLCuwm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ghXFJdvIY7EUAfjLCuwm-18" target="ghXFJdvIY7EUAfjLCuwm-15">
+        <mxCell id="ghXFJdvIY7EUAfjLCuwm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="ghXFJdvIY7EUAfjLCuwm-18" target="ghXFJdvIY7EUAfjLCuwm-15" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="300" y="260" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ghXFJdvIY7EUAfjLCuwm-8" value="执行 redis lua&lt;br&gt;提现脚本&lt;br&gt;+&lt;br&gt;发送事务roketmq消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="ghXFJdvIY7EUAfjLCuwm-8" value="上锁,执行扣减命令&amp;nbsp;&lt;br&gt;+&lt;br&gt;发送事务roketmq消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="360" y="190" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ghXFJdvIY7EUAfjLCuwm-14" value="consumer 调发奖接口&lt;br&gt;+&lt;br&gt;mysql 维护提现状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="ghXFJdvIY7EUAfjLCuwm-14" value="consumer 调发奖接口&lt;br&gt;+&lt;br&gt;mysql 维护提现状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="360" y="270" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ghXFJdvIY7EUAfjLCuwm-18" value="可提现金额计算/校验" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="ghXFJdvIY7EUAfjLCuwm-18" value="可提现金额计算/校验" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="170" y="220" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ghXFJdvIY7EUAfjLCuwm-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="ghXFJdvIY7EUAfjLCuwm-21" target="ghXFJdvIY7EUAfjLCuwm-22">
+        <mxCell id="ghXFJdvIY7EUAfjLCuwm-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" parent="1" source="ghXFJdvIY7EUAfjLCuwm-21" target="ghXFJdvIY7EUAfjLCuwm-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ghXFJdvIY7EUAfjLCuwm-21" value="支付测风控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="ghXFJdvIY7EUAfjLCuwm-21" value="支付测风控" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="530" y="220" width="130" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ghXFJdvIY7EUAfjLCuwm-22" value="用户春节钱包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ghXFJdvIY7EUAfjLCuwm-22" value="用户春节钱包" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="680" y="220" width="130" height="60" as="geometry" />
         </mxCell>
       </root>
